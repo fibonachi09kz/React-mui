@@ -1,12 +1,12 @@
 import './App.css';
 import SearchAppBar from "./components/SearchAppBar/SearchAppBar";
-import BasicSpeedDial from "./components/SpeedDial/SpeedDial";
+import DataTable from "./components/DataTable/DataTable";
 
 function App() {
 	return (
 		<>
 			<SearchAppBar/>
-			<BasicSpeedDial/>
+			<DataTable/>
 		</>
 	);
 }
